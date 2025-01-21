@@ -32,13 +32,13 @@ Clone this repository or download the script.
 Open a terminal and navigate to the script's directory.
 
 Run the script with the following syntax:
-
+```sh
 python network_scanner.py -t <target>
-
+```
 Example:
-
+```sh
 python network_scanner.py -t 192.168.1.1/24
-
+```
 Here, 192.168.1.1/24 specifies the IP range to scan.
 
 # Script Details
@@ -62,12 +62,12 @@ print_res(result_list):
 Displays the scanned results in a tabular format.
 
 # Example Output
-
+```sh
 IP			MAC Address
 ---------------------------------------------------
 192.168.1.1		00:11:22:33:44:55
 192.168.1.2		66:77:88:99:AA:BB
-
+```
 # Limitations
 
 The script requires administrative/root privileges to run.
