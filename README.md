@@ -22,9 +22,9 @@ Python (3.x recommended)
 Scapy library
 
 You can install Scapy using:
-
+```sh
 pip install scapy
-
+```
 # How to Use
 
 Clone this repository or download the script.
