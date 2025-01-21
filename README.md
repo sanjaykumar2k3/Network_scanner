@@ -1,11 +1,11 @@
 # Network_scanner
-Network Scanner
 
-Overview
+
+# Overview
 
 This is a Python-based network scanner that identifies active devices in a network by performing an ARP (Address Resolution Protocol) scan. It retrieves the IP and MAC addresses of devices within a specified target IP range.
 
-Features
+# Features
 
 Scans a specified IP range to find active devices.
 
@@ -13,7 +13,7 @@ Retrieves and displays IP and MAC addresses of connected devices.
 
 Command-line interface for ease of use.
 
-Requirements
+# Requirements
 
 Ensure you have the following installed:
 
@@ -25,7 +25,7 @@ You can install Scapy using:
 
 pip install scapy
 
-How to Use
+# How to Use
 
 Clone this repository or download the script.
 
@@ -41,7 +41,7 @@ python network_scanner.py -t 192.168.1.1/24
 
 Here, 192.168.1.1/24 specifies the IP range to scan.
 
-Script Details
+# Script Details
 
 Functions
 
@@ -61,14 +61,14 @@ print_res(result_list):
 
 Displays the scanned results in a tabular format.
 
-Example Output
+# Example Output
 
 IP			MAC Address
 ---------------------------------------------------
 192.168.1.1		00:11:22:33:44:55
 192.168.1.2		66:77:88:99:AA:BB
 
-Limitations
+# Limitations
 
 The script requires administrative/root privileges to run.
 
@@ -76,7 +76,8 @@ Designed for local network scanning; will not work across the internet.
 
 May miss devices with firewalls blocking ARP requests.
 
-Disclaimer
+
+# Disclaimer
 
 This tool is intended for educational and ethical purposes only. Unauthorized network scanning may violate laws or regulations. Use responsibly.
 
